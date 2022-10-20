@@ -30,7 +30,7 @@
                     <navigationItem key="navigationItem" id="xz3-Jr-aqX">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="AEz-27-h28">
                             <connections>
-                                <segue destination="qnV-vA-uPl" kind="show" id="Pe5-IC-TJS"/>
+                                <segue destination="qnV-vA-uPl" kind="show" id="WMz-QV-tHV"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

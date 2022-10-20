@@ -103,13 +103,11 @@
 		70CD098D2900E65C00FFECDF /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				70CD09D12900F4DA00FFECDF /* Storyboard */,
+				70CD09D02900F4CA00FFECDF /* Delegates */,
 				70CD09CB2900EE6500FFECDF /* Model */,
 				70CD09C12900E67500FFECDF /* Controller */,
-				70CD098E2900E65C00FFECDF /* AppDelegate.swift */,
-				70CD09902900E65C00FFECDF /* SceneDelegate.swift */,
-				70CD09942900E65C00FFECDF /* Main.storyboard */,
 				70CD099A2900E65F00FFECDF /* Assets.xcassets */,
-				70CD099C2900E65F00FFECDF /* LaunchScreen.storyboard */,
 				70CD099F2900E65F00FFECDF /* Info.plist */,
 				70CD09972900E65C00FFECDF /* ToDoList.xcdatamodeld */,
 			);
@@ -147,6 +145,24 @@
 				70CD09CE2900EEAE00FFECDF /* ToDo.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		70CD09D02900F4CA00FFECDF /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				70CD098E2900E65C00FFECDF /* AppDelegate.swift */,
+				70CD09902900E65C00FFECDF /* SceneDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		70CD09D12900F4DA00FFECDF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				70CD09942900E65C00FFECDF /* Main.storyboard */,
+				70CD099C2900E65F00FFECDF /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
