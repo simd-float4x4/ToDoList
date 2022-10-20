@@ -16,6 +16,7 @@
 		70CD09A92900E65F00FFECDF /* ToDoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD09A82900E65F00FFECDF /* ToDoListTests.swift */; };
 		70CD09B32900E65F00FFECDF /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD09B22900E65F00FFECDF /* ToDoListUITests.swift */; };
 		70CD09B52900E65F00FFECDF /* ToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD09B42900E65F00FFECDF /* ToDoListUITestsLaunchTests.swift */; };
+		70CD09C52900EACB00FFECDF /* ShowAllTodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CD09C42900EACB00FFECDF /* ShowAllTodosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		70CD09AE2900E65F00FFECDF /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CD09B22900E65F00FFECDF /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		70CD09B42900E65F00FFECDF /* ToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70CD09C42900EACB00FFECDF /* ShowAllTodosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAllTodosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		70CD09C12900E67500FFECDF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				70CD09C42900EACB00FFECDF /* ShowAllTodosViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				70CD098F2900E65C00FFECDF /* AppDelegate.swift in Sources */,
 				70CD09912900E65C00FFECDF /* SceneDelegate.swift in Sources */,
+				70CD09C52900EACB00FFECDF /* ShowAllTodosViewController.swift in Sources */,
 				70CD09992900E65C00FFECDF /* ToDoList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
