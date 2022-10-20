@@ -16,7 +16,7 @@ class ShowAllTodosViewController: UIViewController, UITableViewDelegate, UITable
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = showTodosTableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = showTodosTableView.dequeueReusableCell(withIdentifier: "showTodoCell", for: indexPath)
         return cell
     }
     
