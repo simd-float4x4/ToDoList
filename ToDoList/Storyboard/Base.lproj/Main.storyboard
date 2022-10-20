@@ -84,10 +84,10 @@
             </objects>
             <point key="canvasLocation" x="2213.04347826087" y="83.705357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Create New Todo Controller-->
         <scene sceneID="Z9B-FO-RNz">
             <objects>
-                <viewController id="Guv-dd-UhS" sceneMemberID="viewController">
+                <viewController id="Guv-dd-UhS" customClass="CreateNewTodoController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zjn-2u-STL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -112,12 +112,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="記入した内容を登録する"/>
+                                <connections>
+                                    <action selector="registTodo" destination="Guv-dd-UhS" eventType="touchUpInside" id="rcZ-4g-3lh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vib-BV-KQa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="ybT-qH-3Gn"/>
+                    <connections>
+                        <outlet property="todoContentInputField" destination="eRg-qh-W68" id="sdf-jY-2CS"/>
+                        <outlet property="todoTitleInputField" destination="Ad8-lx-76u" id="tO7-wm-PLD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jxl-63-lMO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
