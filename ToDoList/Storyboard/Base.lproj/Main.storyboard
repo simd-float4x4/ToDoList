@@ -31,7 +31,11 @@
                         </prototypes>
                     </tableView>
                     <navigationItem key="navigationItem" id="xz3-Jr-aqX">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="AEz-27-h28"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="AEz-27-h28">
+                            <connections>
+                                <segue destination="Guv-dd-UhS" kind="show" id="jrT-Xd-FMG"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="showTodosTableView" destination="u3S-3G-wlQ" id="7vc-gr-THM"/>
@@ -80,6 +84,45 @@
             </objects>
             <point key="canvasLocation" x="2213.04347826087" y="83.705357142857139"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Z9B-FO-RNz">
+            <objects>
+                <viewController id="Guv-dd-UhS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zjn-2u-STL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eRg-qh-W68">
+                                <rect key="frame" x="20" y="330" width="374" height="237"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ad8-lx-76u">
+                                <rect key="frame" x="20" y="156" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7RK-gW-UNT">
+                                <rect key="frame" x="20" y="575" width="374" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="記入した内容を登録する"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vib-BV-KQa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ybT-qH-3Gn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jxl-63-lMO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2202.898550724638" y="856.47321428571422"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="yaW-7c-5o8">
             <objects>
@@ -100,6 +143,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
