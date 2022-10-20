@@ -24,15 +24,14 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="qnV-vA-uPl" kind="show" id="jOe-Fw-3lA"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                     </tableView>
                     <navigationItem key="navigationItem" id="xz3-Jr-aqX">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="AEz-27-h28">
-                            <connections>
-                                <segue destination="qnV-vA-uPl" kind="show" id="WMz-QV-tHV"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="AEz-27-h28"/>
                     </navigationItem>
                     <connections>
                         <outlet property="showTodosTableView" destination="u3S-3G-wlQ" id="7vc-gr-THM"/>
